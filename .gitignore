@@ -1,0 +1,4 @@
+/node_modules
+class/vendor
+class/composer.lock
+package
