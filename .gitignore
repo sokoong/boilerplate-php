@@ -1,4 +1,7 @@
 /node_modules
-class/vendor
-class/composer.lock
-package
+/api/vendor
+/vendor
+/api/vendor
+/api/composer.lock
+/composer.lock
+/package-lock.json
