@@ -1,4 +1,4 @@
-<?php require_once 'api/config.php' ?>
+<?php require_once 'api/config.php';?>
 <!DOCTYPE html>
 <html lang="en" ng-app="app">
 
@@ -34,3 +34,35 @@
 </head>
 
 <body ng-controller="AppController">
+    <header>
+        <nav>
+            <h1><a href="./"><img src="https://www.google.com/images/branding/googlelogo/1x/googlelogo_color_272x92dp.png" alt=""></a></h1>
+            <ul>
+                <li class='sub-menu active'>
+                    <a href=""><span>Golf</span> <i class='fa fa-angle-down'></i></a>
+                    <ul>
+                        <li><a href="">Course Layout & Scenery</a></li>
+                        <li><a href="">Green Fee & Service Rate</a></li>
+                        <li><a href="">Facilities</a></li>
+                        <li><a href="">Club Regulations</a></li>
+                    </ul>
+                </li>
+                <li class='sub-menu'>
+                    <a href=""><span>Resort and Spa</span> <i class='fa fa-angle-down'></i></a>
+                    <ul>
+                        <li><a href="">Room & Rate</a></li>
+                        <li><a href="">A-TA-TI Spa</a></li>
+                        <li><a href="">Leisure Facilities</a></li>
+                        <li><a href="">Business Facilities</a></li>
+                        <li><a href="">Gallery</a></li>
+                    </ul>
+                </li>
+                <li><a href="">Restaurant</a></li>
+                <li><a href="">Shop</a></li>
+                <li><a href="">Promotion</a></li>
+                <li><a href="">News & Events</a></li>
+                <li><a href="">Location</a></li>
+            </ul>
+            <a href="javascript:void(0)" onclick="ap.responsive.menu.toggle()" id='menu-bars'></a>
+        </nav>
+    </header>
