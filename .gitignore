@@ -5,3 +5,4 @@
 /api/composer.lock
 /composer.lock
 /package-lock.json
+/src/img/upload/
