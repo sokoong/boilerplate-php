@@ -7,6 +7,7 @@
     <script src="node_modules/angular-sanitize/angular-sanitize.min.js"></script>
     <script src="src/js/directive.js"></script>
     <script src="src/js/app.js"></script>
+    <script src="src/js/script.js"></script>
 </body>
 
 </html>

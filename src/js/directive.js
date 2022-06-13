@@ -3,10 +3,7 @@ var httpconfig = {
         "Content-Type": "application/x-www-form-urlencoded",
     },
 };
-
 var app = angular.module("app", ["ngSanitize"]);
-
-
 app.directive("ngEnter", function () {
     return function (scope, element, attrs) {
         element.bind("keydown keypress", function (event) {
@@ -19,8 +16,6 @@ app.directive("ngEnter", function () {
         });
     };
 });
-
-
 app.filter("trust", [
     "$sce",
     function ($sce) {
@@ -29,7 +24,6 @@ app.filter("trust", [
         };
     },
 ]);
-
 app.filter("trustAsResourceUrl", [
     "$sce",
     function ($sce) {
