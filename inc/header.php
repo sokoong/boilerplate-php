@@ -27,7 +27,7 @@
     <link rel="manifest" href="src/img/favicon/manifest.json">
     <link rel="stylesheet" href="node_modules/bootstrap/dist/css/bootstrap.min.css" />
     <link rel="stylesheet" href="node_modules/font-awesome/css/font-awesome.min.css" />
-    <!-- <link rel="stylesheet" href="//at.alicdn.com/t/font_3408279_ta2acixcqi.js" /> -->
+    <!-- <link rel="stylesheet" href="//at.alicdn.com/t/font_3408279_ta2acixcqi.css" /> -->
     <link rel="stylesheet" href="node_modules/@fancyapps/fancybox/dist/jquery.fancybox.min.css" />
     <link rel="stylesheet" href="src/css/default.css" />
     <link rel="stylesheet" href="src/css/style.css" />
