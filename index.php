@@ -9,13 +9,13 @@
         </ol>
         <div class="carousel-inner">
             <div class="carousel-item active">
-                <div style="background:url('https://placehold.jp/1920x987.png');"><img src="https://placehold.jp/1920x987.png" alt=""></div>
+                <div style="background-image:url('https://placehold.jp/1920x987.png');"><img src="https://placehold.jp/1920x987.png" alt=""></div>
             </div>
             <div class="carousel-item">
-                <div style="background:url('https://placehold.jp/1920x987.png');"><img src="https://placehold.jp/1920x987.png" alt=""></div>
+                <div style="background-image:url('https://placehold.jp/1920x987.png');"><img src="https://placehold.jp/1920x987.png" alt=""></div>
             </div>
             <div class="carousel-item">
-                <div style="background:url('https://placehold.jp/1920x987.png');"><img src="https://placehold.jp/1920x987.png" alt=""></div>
+                <div style="background-image:url('https://placehold.jp/1920x987.png');"><img src="https://placehold.jp/1920x987.png" alt=""></div>
             </div>
         </div>
         <a class="carousel-control-prev" href="#main-slider" role="button" data-slide="prev">

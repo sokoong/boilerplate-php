@@ -1,11 +1,11 @@
-@import "https://fonts.googleapis.com/css2?family=Lustria&family=Roboto:ital,wght@0,100;0,300;0,400;0,700;1,400&display=swap";
-html,body{margin:0;padding:0;font-family:'Lustria',sans-serif;font-weight:300;color:#333}
+@import url('https://fonts.googleapis.com/css2?family=Sarabun:wght@100;300;500;700&display=swap');
+html,body{margin:0;padding:0;font-family:'Sarabun',sans-serif;font-weight:300;color:#333}
 a{color:#235483}
 a:hover,a:focus,a:active{color:#123e68}
 
 /* Header 
 =========================================================== */
-header{position:fixed;top:0;left:0;width:100%;background:rgba(255,255,255,.2);z-index:1000;padding:5px 30px;font-family:"Roboto",sans-serif}
+header{position:fixed;top:0;left:0;width:100%;background:rgba(255,255,255,.2);z-index:1000;padding:5px 30px;}
 header.stick{background:#e0e5e1;transition:.3s all;box-shadow:0 1px 3px rgba(0,0,0,.3)}
 header nav{display:grid;grid-template-columns:auto max-content;align-items:center;grid-gap:30px}
 header nav h1{margin-bottom:3px}
@@ -26,6 +26,25 @@ header nav>ul>li.sub-menu>ul>li>a:hover,header nav>ul>li.sub-menu>ul>li>a:focus,
 header #menu-bars{position:absolute;top:7px;right:15px;display:none;z-index:1001}
 header #menu-bars:before{content:'\f0c9';font-family:"FontAwesome";font-size:26px;color:#508fce70}
 header.active #menu-bars:before{content:'✖';font-size:30px;color:#ccc;font-family:initial}
+
+/* Footer 
+=========================================================== */
+footer{padding: 50px 0 0;background: #393939;color: white;}
+footer #copyright{padding: 5px;font-size: 13px;padding: 7.5px;text-align: center;margin: 20px 0 0;background: rgba(255,255,255,.1);}
+footer>div>div:first-child{display: grid;grid-template-columns: auto auto auto auto;}
+footer>div>div:last-child{border-top: 1px solid rgba(255,255,255,.1);padding: 20px 0 5px;}
+footer>div>div:last-child>div>div{display: grid;grid-template-columns: auto auto;grid-gap: 50px;}
+footer ul>li>a{color: rgba(255,255,255,.5);font-size: 14px;}
+footer h4{font-size: 18px;}
+footer ul{padding-left: 20px;}
+footer ul>li{list-style: disc;}
+footer p.head{margin: 0;text-align: center;}
+footer p.head>b{font-size: 30px;color: white;}
+footer p.head+p>a{font-size: 20px;color: rgba(255,255,255,.7);}
+footer p.head+ul{padding: 0;}
+footer p.head+ul>li{list-style: none;display: inline-block;vertical-align: middle;margin:  0 5px;}
+footer p.head+ul>li>a{display: block;font-size: 30px;}
+
 
 /* Slide 
 =========================================================== */
