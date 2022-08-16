@@ -3,7 +3,7 @@
         "@fancyapps/fancybox": "^3.5.7",
         "angular": "^1.8.2",
         "angular-sanitize": "^1.8.3",
-        "bootstrap": "^4.6.0",
+        "bootstrap": "^5.2",
         "datatables": "^1.10.18",
         "font-awesome": "^4.7.0",
         "jquery": "^3.6.0",

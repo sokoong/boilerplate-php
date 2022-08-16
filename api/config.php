@@ -1,7 +1,7 @@
 <?php
 session_start();
 date_default_timezone_set("Asia/Bangkok");
-require_once 'vendor/autoload.php';
+// require_once 'vendor/autoload.php';
 require_once 'fn.php';
 
 // $ADODB_FETCH_MODE = ADODB_FETCH_ASSOC;
