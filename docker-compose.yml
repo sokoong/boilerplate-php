@@ -1,0 +1,45 @@
+version: '3.8'
+
+services:
+  db:
+    image: mariadb:10.5
+    container_name: db-mariadb105
+    environment:
+      MYSQL_ROOT_PASSWORD: root
+    volumes:
+      - db_data:/var/lib/mysql
+    networks:
+      - php57_network
+
+  web:
+    build: .
+    # เพื่อแก้ไขปัญหา ไม่มีเวอร์ชันสำหรับสถาปัตยกรรม ARM64 (เครื่อง Mac M1/M2)
+    # ให้ติดตั้ง rosetta cmd: softwareupdate --install-rosetta
+    platform: linux/amd64 # บังคับให้ใช้โหมด x86 (Rosetta)
+    container_name: web-php56
+    volumes:
+      - ./:/var/www/html
+    ports:
+      - '80:80'
+    networks:
+      - php57_network
+
+  phpmyadmin:
+    image: phpmyadmin/phpmyadmin:latest
+    container_name: phpmyadmin
+    depends_on:
+      - db
+    environment:
+      PMA_HOST: db
+      PMA_USER: root
+      PMA_PASSWORD: root
+    ports:
+      - '8080:80'
+    networks:
+      - php57_network
+
+networks:
+  php57_network:
+
+volumes:
+  db_data:
